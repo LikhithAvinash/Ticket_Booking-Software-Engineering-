@@ -1,3 +1,7 @@
+This is a Ticket Booking Application where you can book tickets either for Movies and Many Events with a chatbot to guide for your needs
+
+To Run it on your System type "npm run dev" by going to the file 'package-lock.json'
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
