@@ -285,7 +285,7 @@ const DatePlaceSelection = ({ item, onConfirm, onBack, onWatchTrailer }) => {
         try {
             let chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
             const payload = { contents: chatHistory };
-            const apiKey = "AIzaSyAsBqoMnvKzXLIbvFxsXKK9gT2Ecw9seSY";
+            const apiKey = "GEMINI_API_KEY";
             const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
             const response = await fetch(apiUrl, {
                 method: 'POST',
